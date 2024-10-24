@@ -1,0 +1,47 @@
+
+body{
+    background-image: url('https://images.pexels.com/photos/622164/pexels-photo-622164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+}
+
+.card {
+    width: 40%;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: rgb(56, 175, 175);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
